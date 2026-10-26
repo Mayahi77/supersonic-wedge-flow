@@ -11,7 +11,6 @@
   },
   "documentation": "All relative README links resolve",
   "limitations": [
-    "GitHub authentication unavailable and repository visibility not yet supplied",
     "ParaView batch export unavailable: paraview Python module missing",
     "MP4 encoding unavailable with installed command-line encoders",
     "Small local late-time changes persist; no mesh-independence or cross-code validation"

@@ -1,6 +1,6 @@
 {
   "note": "Precommit audit; excludes this audit file and Git metadata",
-  "total_bytes": 4919242,
+  "total_bytes": 4919491,
   "files": [
     {
       "path": "media/startup-plots-preview.gif",
@@ -152,7 +152,7 @@
     },
     {
       "path": "provenance/checks.json",
-      "bytes": 1006
+      "bytes": 922
     },
     {
       "path": "case/constant/turbulenceProperties",
@@ -177,6 +177,10 @@
     {
       "path": "provenance/preservation.json",
       "bytes": 678
+    },
+    {
+      "path": "provenance/publication.json",
+      "bytes": 333
     },
     {
       "path": "logs/video-export.log",
