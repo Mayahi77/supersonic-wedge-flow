@@ -1,0 +1,49 @@
+Info    : Running 'gmsh supersonic-wedge-flow/geometry/su2Wedge.geo -3 -format msh2 -o supersonic-wedge-flow/.work/regenerated.msh' [Gmsh 4.4.1, 1 node, max. 1 thread]
+Info    : Started on Mon Oct 26 06:26:12 2026
+Info    : Reading 'supersonic-wedge-flow/geometry/su2Wedge.geo'...
+Info    : Done reading 'supersonic-wedge-flow/geometry/su2Wedge.geo'
+Info    : Meshing 1D...
+Info    : Meshing curve 1 (Line)
+Info    : Meshing curve 2 (Line)
+Info    : Meshing curve 3 (Line)
+Info    : Meshing curve 4 (Line)
+Info    : Meshing curve 5 (Line)
+Info    : Meshing curve 6 (Line)
+Info    : Meshing curve 7 (Line)
+Info    : Meshing curve 8 (extruded)
+Info    : Meshing curve 9 (extruded)
+Info    : Meshing curve 10 (extruded)
+Info    : Meshing curve 11 (extruded)
+Info    : Meshing curve 12 (extruded)
+Info    : Meshing curve 13 (extruded)
+Info    : Meshing curve 14 (extruded)
+Info    : Meshing curve 15 (extruded)
+Info    : Meshing curve 16 (extruded)
+Info    : Meshing curve 17 (extruded)
+Info    : Meshing curve 18 (extruded)
+Info    : Meshing curve 19 (extruded)
+Info    : Meshing curve 20 (extruded)
+Info    : Done meshing 1D (0.00210501 s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (transfinite)
+Info    : Meshing surface 2 (transfinite)
+Info    : Meshing surface 3 (extruded)
+Info    : Meshing surface 4 (extruded)
+Info    : Meshing surface 5 (extruded)
+Info    : Meshing surface 6 (extruded)
+Info    : Meshing surface 7 (extruded)
+Info    : Meshing surface 8 (extruded)
+Info    : Meshing surface 9 (extruded)
+Info    : Meshing surface 10 (extruded)
+Info    : Meshing surface 11 (extruded)
+Info    : Done meshing 2D (0.0253989 s)
+Info    : Meshing 3D...
+Info    : Meshing volume 1 (extruded)
+Info    : Meshing volume 2 (extruded)
+Info    : Done meshing 3D (0.0458481 s)
+Info    : Optimizing 3D mesh...
+Info    : Done optimizing 3D mesh (0.000127339 s)
+Info    : 7500 vertices 11781 elements
+Info    : Writing 'supersonic-wedge-flow/.work/regenerated.msh'...
+Info    : Done writing 'supersonic-wedge-flow/.work/regenerated.msh'
+Info    : Stopped on Mon Oct 26 06:26:12 2026

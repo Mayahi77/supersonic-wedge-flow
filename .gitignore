@@ -1,0 +1,16 @@
+.work/
+__pycache__/
+*.pyc
+media/frames/
+media/startup-plots.gif
+logs/analysis.log
+logs/original-startup-rhoCentralFoam.log
+logs/verification-rhoCentralFoam.log
+case/[1-9]*/
+case/0.*/
+case/processor*/
+case/postProcessing/
+case/log.*
+case/constant/polyMesh/sets/
+*.bak
+*~

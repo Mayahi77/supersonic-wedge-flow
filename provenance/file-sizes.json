@@ -1,0 +1,198 @@
+{
+  "note": "Precommit audit; excludes this audit file and Git metadata",
+  "total_bytes": 4919242,
+  "files": [
+    {
+      "path": "media/startup-plots-preview.gif",
+      "bytes": 1758056
+    },
+    {
+      "path": "media/startup-plots.webm",
+      "bytes": 786001
+    },
+    {
+      "path": "geometry/su2Wedge.msh",
+      "bytes": 778137
+    },
+    {
+      "path": "case/constant/polyMesh/faces",
+      "bytes": 330268
+    },
+    {
+      "path": "case/constant/polyMesh/points",
+      "bytes": 209158
+    },
+    {
+      "path": "results/pressure-profiles.csv",
+      "bytes": 177263
+    },
+    {
+      "path": "results/selected-fields.npz",
+      "bytes": 120485
+    },
+    {
+      "path": "media/stationarity.png",
+      "bytes": 112792
+    },
+    {
+      "path": "media/pressure-profile.png",
+      "bytes": 82885
+    },
+    {
+      "path": "logs/verification-rhoCentralFoam.log.gz",
+      "bytes": 73263
+    },
+    {
+      "path": "media/temperature.png",
+      "bytes": 72473
+    },
+    {
+      "path": "media/pressure.png",
+      "bytes": 71007
+    },
+    {
+      "path": "case/constant/polyMesh/owner",
+      "bytes": 69520
+    },
+    {
+      "path": "media/mach.png",
+      "bytes": 68333
+    },
+    {
+      "path": "logs/original-startup-rhoCentralFoam.log.gz",
+      "bytes": 35753
+    },
+    {
+      "path": "licenses/OpenFOAM-GPL-3.0.txt",
+      "bytes": 35647
+    },
+    {
+      "path": "case/constant/polyMesh/neighbour",
+      "bytes": 34519
+    },
+    {
+      "path": "results/history.csv",
+      "bytes": 25315
+    },
+    {
+      "path": "case/constant/polyMesh/cellZones",
+      "bytes": 17966
+    },
+    {
+      "path": "analysis/analyze.py",
+      "bytes": 14236
+    },
+    {
+      "path": "README.md",
+      "bytes": 10189
+    },
+    {
+      "path": "logs/rebuilt-checkMesh.log",
+      "bytes": 3213
+    },
+    {
+      "path": "logs/checkMesh.log",
+      "bytes": 3166
+    },
+    {
+      "path": "logs/gmshToFoam.log",
+      "bytes": 2678
+    },
+    {
+      "path": "results/verification-history.csv",
+      "bytes": 2565
+    },
+    {
+      "path": "results/metrics.json",
+      "bytes": 2265
+    },
+    {
+      "path": "logs/gmsh.log",
+      "bytes": 2082
+    },
+    {
+      "path": "scripts/run_case.py",
+      "bytes": 1693
+    },
+    {
+      "path": "case/constant/polyMesh/boundary",
+      "bytes": 1602
+    },
+    {
+      "path": "case/constant/thermophysicalProperties",
+      "bytes": 1425
+    },
+    {
+      "path": "case/system/fvSchemes",
+      "bytes": 1316
+    },
+    {
+      "path": "case/system/controlDict",
+      "bytes": 1303
+    },
+    {
+      "path": "geometry/su2Wedge.geo",
+      "bytes": 1280
+    },
+    {
+      "path": "case/0/p",
+      "bytes": 1261
+    },
+    {
+      "path": "case/0/U",
+      "bytes": 1257
+    },
+    {
+      "path": "case/0/T",
+      "bytes": 1254
+    },
+    {
+      "path": "case/system/fvSolution",
+      "bytes": 1213
+    },
+    {
+      "path": "provenance/checks.json",
+      "bytes": 1006
+    },
+    {
+      "path": "case/constant/turbulenceProperties",
+      "bytes": 899
+    },
+    {
+      "path": "case/constant/polyMesh/pointZones",
+      "bytes": 878
+    },
+    {
+      "path": "case/constant/polyMesh/faceZones",
+      "bytes": 877
+    },
+    {
+      "path": "scripts/export_video.py",
+      "bytes": 724
+    },
+    {
+      "path": "results/reproduction.json",
+      "bytes": 709
+    },
+    {
+      "path": "provenance/preservation.json",
+      "bytes": 678
+    },
+    {
+      "path": "logs/video-export.log",
+      "bytes": 290
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 270
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 72
+    },
+    {
+      "path": "case/case.foam",
+      "bytes": 0
+    }
+  ]
+}

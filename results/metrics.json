@@ -1,0 +1,98 @@
+{
+  "theory_nominal_M2": {
+    "beta_deg": 39.31393184481887,
+    "pressure_ratio": 1.706578604000033,
+    "p_Pa": 170657.8604000033,
+    "T_K": 351.0453852887631,
+    "M": 1.640522229001082
+  },
+  "gas": {
+    "R_J_kgK": 287.05230672070365,
+    "gamma": 1.3999888934949976,
+    "inlet_M": 2.0000347393424467
+  },
+  "downstream_roi": {
+    "x_m": [
+      0.7,
+      0.95
+    ],
+    "y_m": [
+      0.09,
+      0.14
+    ],
+    "cells": 32
+  },
+  "upstream_roi": {
+    "x_m": [
+      0.15,
+      0.4
+    ],
+    "y_m": [
+      0.3,
+      0.7
+    ],
+    "cells": 247
+  },
+  "final_time_s": 0.02,
+  "time_directories": 202,
+  "final_roi": {
+    "time_s": 0.02,
+    "upstream_p_Pa": 100000.0,
+    "downstream_p_Pa": 171000.3642178349,
+    "downstream_T_K": 351.7481929889802,
+    "downstream_M": 1.6408341187661495
+  },
+  "saved_snapshot_change_001_to_002": {
+    "p": {
+      "area_weighted_relative_L1": 0.0011462172617380001,
+      "max_absolute": 4037.9473999999755
+    },
+    "T": {
+      "area_weighted_relative_L1": 0.0002759943164825551,
+      "max_absolute": 3.0276541000000066
+    },
+    "M": {
+      "area_weighted_relative_L1": 0.00026551527442603807,
+      "max_absolute": 0.022182824139362234
+    }
+  },
+  "verification_stationarity": {
+    "0.01_to_0.02": {
+      "p": {
+        "area_weighted_relative_L1": 0.0007791721130968288,
+        "max_absolute": 4085.072899999999
+      },
+      "T": {
+        "area_weighted_relative_L1": 0.000191282247304612,
+        "max_absolute": 2.68344639999998
+      }
+    },
+    "0.019_to_0.02": {
+      "p": {
+        "area_weighted_relative_L1": 0.000325434076904519,
+        "max_absolute": 1500.7262999999803
+      },
+      "T": {
+        "area_weighted_relative_L1": 8.001367422306303e-05,
+        "max_absolute": 0.9754403000000025
+      }
+    }
+  },
+  "profile": {
+    "x_m": 0.8,
+    "z_m": 0.005,
+    "y_range_m": [
+      0.15,
+      0.8
+    ],
+    "sampling": "piecewise-constant cell intersections; thresholds linearly interpolated between segment midpoints",
+    "theoretical_shock_y_m": 0.24566899517003768,
+    "y_at_90_50_10_percent": [
+      0.22025735002129473,
+      0.24417109907349513,
+      0.26874153795145145
+    ],
+    "width_10_90_m": 0.048484187930156714
+  },
+  "observed_max_Co": 0.2089071466
+}

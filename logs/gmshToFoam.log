@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1706                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1706
+Arch   : "LSB;label=32;scalar=64"
+Exec   : gmshToFoam wedge.msh
+Date   : Oct 26 2026
+Time   : 06:30:19
+Host   : "ubuntu"
+PID    : 5
+Case   : /home/hy2foam/CFD/OpenFOAM/Projects/SU2_inviscidSuperSonicWedge/supersonic-wedge-flow/.work/baseline
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:6
+    Surface 1	inlet
+    Surface 2	outlet
+    Surface 3	lower
+    Surface 4	upper
+    Surface 5	frontAndBack
+    Volume 6	fluid
+
+Starting to read points at line 14
+Vertices to be read:7500
+Vertices read:7500
+
+Starting to read cells at line 7517
+Cells to be read:11124
+
+Mapping region 5 to Foam patch 0
+Mapping region 3 to Foam patch 1
+Mapping region 4 to Foam patch 2
+Mapping region 1 to Foam patch 3
+Mapping region 2 to Foam patch 4
+Mapping region 6 to Foam cellZone 0
+Cells:
+    total:3626
+    hex  :3626
+    prism:0
+    pyr  :0
+    tet  :0
+
+CellZones:
+Zone	Size
+    0	3626
+
+Skipping tag $Periodic at line 18644
+Skipping tag  at line 22107
+Patch 0 gets name frontAndBack
+Patch 1 gets name lower
+Patch 2 gets name upper
+Patch 3 gets name inlet
+Patch 4 gets name outlet
+
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, const Foam::Xfer<Foam::Field<Foam::Vector<double> > >&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 592
+    Found 7498 undefined faces in mesh; adding to default patch.
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone fluid and cellSet
+End
+

@@ -1,0 +1,19 @@
+{
+  "source_preservation": "1228 SHA-256 comparisons; zero original files changed",
+  "mesh_saved": "Mesh OK, 3626 hexahedra",
+  "mesh_rebuilt": "Mesh OK after Gmsh 4.4.1 and gmshToFoam v1706",
+  "solver": "Independent isolated v1706 baseline run completed to 0.02 s; archived startup log also ends normally",
+  "media": {
+    "renderer": "Matplotlib Agg",
+    "video": "WebM VP9, 1200x700, 201 frames; all frames decoded successfully with GStreamer",
+    "gif": "600x350, 51 frames; initial, intermediate and final frames inspected",
+    "decoded_frame_100_mean_absolute_RGB_error": 2.6392174603174605
+  },
+  "documentation": "All relative README links resolve",
+  "limitations": [
+    "GitHub authentication unavailable and repository visibility not yet supplied",
+    "ParaView batch export unavailable: paraview Python module missing",
+    "MP4 encoding unavailable with installed command-line encoders",
+    "Small local late-time changes persist; no mesh-independence or cross-code validation"
+  ]
+}

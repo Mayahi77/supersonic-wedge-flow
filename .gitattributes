@@ -1,0 +1,5 @@
+logs/* -whitespace
+*.npz binary
+*.gif binary
+*.png binary
+*.webm binary

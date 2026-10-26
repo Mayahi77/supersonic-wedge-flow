@@ -1,0 +1,19 @@
+{
+  "original_files": 1228,
+  "original_files_changed": [],
+  "local_backup": "../preservation/original-case.tar.gz",
+  "archive_bytes": 10664003,
+  "archive_sha256": "fdcb7c100ec68f94796444762bf321223e279865d0e44a7e90a05d08929c0316",
+  "tutorial_evidence": {
+    "tutorial": "compressible/rhoCentralFoam/wedge15Ma5",
+    "exact_matches": [
+      "system/blockMeshDict",
+      "system/fvSchemes"
+    ]
+  },
+  "published_case_changes": [
+    "Control endTime=0.02 and writeInterval=0.001 for baseline; original saved control was startup 0.01/0.00005",
+    "Removed unused tutorial blockMeshDict and diagnostic cell sets",
+    "Gmsh source explicitly selects ASCII MSH 2.2"
+  ]
+}
